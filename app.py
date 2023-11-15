@@ -1,6 +1,7 @@
 import pickle
 import streamlit as st
 
+#run this command in terminal to run the app : streamlit run app.py
 
 def recommend(movie):
     index = movies[movies['title'] == movie].index[0]
